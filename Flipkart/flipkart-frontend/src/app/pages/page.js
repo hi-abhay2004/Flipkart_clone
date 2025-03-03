@@ -30,7 +30,7 @@ const category_img=[
   {id: 2,image: "electronic.webp",name:'Electronics'},
   {id: 3,image: "fashion.webp",name:'Fashion'},
   {id: 4,image: "grocery.webp",name:'Grocery'},
-  {id: 5,image: "home and furniture.webp",name:'Home and Furniture'},
+  {id: 5,image: "home and furniture.webp",name:'furniture'},
   {id: 6,image: "mobile.webp",name:'Mobile'},
   {id: 7,image: "toys.webp",name:'Toys'},
   {id: 8,image: "travel.webp",name:'Travel'},
@@ -53,13 +53,13 @@ const Home = () => {
   return (
 
     <div>
-      <Header />
+      {/* <Header /> */}
       <Category category_img={category_img}/>
       
       <ProductSlider banner={banner}/>
       <ProductItem products={products}/>
       <ProductItem subCategory={subCategory} showBanner={false}/>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   )
 }
